@@ -1,0 +1,153 @@
+.signup_page .nav-tabs {
+    border-bottom: 0px solid #dddddd;
+}
+
+.signup_page .edut-header {
+    border-bottom: 0px solid #dedede;
+}
+
+.signup_page .layer1 {
+  background-image : url(img/signup_bg.png);
+  background-repeat: no-repeat;
+  background-size : 100% 100%;
+
+}
+
+.signup_page .plan_tbl {
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.signup_page .plan_tbl tbody tr:nth-child(even) td {
+
+}
+
+.signup_page .plan_tbl tbody tr td, .signup_page .plan_tbl tfoot tr td {
+  height: 55px;
+}
+
+.signup_page .plan_tbl td:first-child {
+  text-align: left;
+  background:transparent;
+}
+
+.signup_page .plan_tbl tbody tr:nth-child(even) td:first-child {
+  background: transparent;
+}
+
+.signup_page .plan_tbl tbody tr:nth-child(even) td:nth-child(2) {
+  background: url(img/odd_row_1_bg.png) no-repeat;
+  background-position: left center;
+  background-size : 100% 100%; 
+}
+
+.signup_page .plan_tbl tbody tr:nth-child(even) td:nth-child(3) {
+  background: url(img/odd_row_2_bg.png) no-repeat;
+  background-position: left center;
+  background-size : 100% 100%;
+   
+}
+
+.signup_page .plan_tbl td:nth-child(3) {
+  border-left: 5px solid #080a0a;
+}
+
+.signup_page .plan_tbl td:first-child {
+    font-weight: normal;
+    font-size:13px;
+    padding : 0px 25px;
+}
+
+.signup_page .btnFreePlan {
+  width: 100%;
+  height : 100%;
+  background-color: #e93545;
+}
+
+.signup_page .btnPremiumPlan {
+  width: 100%;
+  height : 100%;
+}
+
+
+.signup_page .signup_dialog {
+  background-color: white;
+  min-height: 600px;
+  position: absolute;
+  top : 120px;
+  padding : 0px;
+  border: 1px solid black;
+}
+
+.signup_page .signup_dialog .close_button {
+    color: #f15b28;
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: default;
+}
+
+.signup_page .signup_dialog .form-control {
+  width : 80%;
+  margin-bottom: 20px;
+  color : black;
+  border-color: black;
+}
+
+.signup_page .signup_dialog .form-control:focus {
+  color : #f15b28;
+  border: 1px solid #f15b28 !important;
+}
+
+.signup_page .signup_dialog .social_button {
+  height : 45px;
+  width: 93%;
+  margin-bottom: 15px;
+  
+}
+
+.signup_page .signup_dialog .fb_button {
+    background: #297fb8 url("img/fb_button.png") no-repeat scroll 0 0 / auto 100%;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 50px;
+    text-align: center;
+}
+
+.signup_page .signup_dialog .linkedin_button {
+    background: #0086b6 url(img/linkedin_button.png) no-repeat  scroll 0 0 / auto 100%;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 50px;
+    text-align: center;
+}
+
+.signup_page .signup_dialog .gplus_button {
+    background: #dd4b39 url(img/gplus_button.png) no-repeat scroll 0 0 / auto 100%;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 50px;
+    text-align: center;
+
+}
+
+.signup_page .signup_dialog .social_box {
+  padding: 10px 20px;
+  background-color: #fdf0c8;
+}
+
+/******************** Pad **************************/
+
+@media (max-width: 1176px){
+
+}
+
+
+
+

@@ -1,0 +1,119 @@
+
+
+.dashboard_page .main-sidebar .sidebar {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.dashboard_page .cube {
+  display : inline-block;
+  padding : 10px;
+  width : 100%;
+}
+
+.dashboard_page .cube.odd {
+  background-color: white;
+}
+
+.dashboard_page .cube.even {
+  background-color: #e8e8e8;
+}
+
+
+.dashboard_page .video_cube {
+  text-align:  center;
+}
+
+.dashboard_page .detail_cube .video_detail_button {
+  border : 1px solid #fdb63d;
+  color : #fdb63d;
+  padding : 10px 20px;
+  font-weight: bold;
+  margin-top : 20px;
+  display: inline-block;
+  background: white;
+}
+
+.dashboard_page .detail_cube .uni_detail {
+  height : 70px;
+}
+
+.dashboard_page .favor_cube {
+  text-align: center;
+  background:rgba(0, 0, 0, 0) url("img/favor_cube_bg.png") no-repeat scroll 0 0 / 100% 100%;
+  height : 185px;
+  overflow:hidden;
+}
+
+.dashboard_page .favor_cube .st_category {
+  color : #666;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.dashboard_page .favor_cube .uni_category {
+  color : #fdb63d;
+  width: 100%;
+  height : 20px;
+  overflow : hidden;
+}
+
+.dashboard_page .favor_cube .uni_last_online {
+    bottom: 0;
+    color: #999;
+    display: block;
+    left: 100px;
+    position: absolute;
+}
+
+.dashboard_page .favor_cube input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fdb63d;
+    color: #e93545;
+    height: 40px;
+    margin-top: 20px;
+    padding: 9px 20px;
+    box-shadow: 2px 2px 1px -1px #e93545;
+    -moz-box-shadow: 2px 2px 1px -1px #e93545;
+    -webkit-box-shadow: 2px 2px 1px -1px #e93545;
+}
+
+.dashboard_page .ad_cube {
+  text-align: center;
+  display: inline-block;
+  padding : 15px;
+  width: 100%;
+}
+
+.dashboard_page .ad_cube a {
+  background:rgba(0, 0, 0, 0) url("img/plane_admob.png") no-repeat scroll 0 0 / 100% 100%;
+  height : 95px;
+}
+
+.dashboard_page .ui-autocomplete {
+  width: 27% !important;
+  background: white;
+  list-style:none;
+  z-index:9999;
+  padding-left: 0px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dashboard_page .ui-autocomplete li {
+  padding : 10px;
+  border : 1px solid #fcb03c;
+  color : #666;
+}
+
+
+.dashboard_page .ui-autocomplete li:hover {
+  padding : 10px;
+  border : 1px solid #fcb03c;
+  color : #666;
+  background:#fcb03c;
+}
+
+
+

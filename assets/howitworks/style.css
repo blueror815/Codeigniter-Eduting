@@ -1,0 +1,195 @@
+.howitworks_page .edut-header {
+  border-bottom: 0px;
+}
+
+.howitworks_page .layer1 img {
+  margin-top : -100px;
+}
+
+.howitworks_page ul.how-tab li {
+  padding : 0px;
+  margin-bottom: 0px;   
+}
+
+.howitworks_page ul.how-tab li a {
+  margin-right : 0px;
+  border-radius : 0px;
+  border : 0px;
+  background-color: #ffffff;
+  color : #a7a9ac;
+  padding : 20px 5px;
+}
+
+.howitworks_page ul.how-tab li a:hover, .howitworks_page ul.how-tab li a:focus {
+  color : #666666;
+  border:0px;
+}
+
+.howitworks_page ul.how-tab li.non-dropdown.active a {
+  background-color: #fcb03c;
+  color : #ffffff;
+}
+
+.howitworks_page ul.dropdown-menu li.active a {
+  background-color: #fcb03c;
+  color : #ffffff;
+}
+
+/*         layer 3             */
+.howitworks_page .layer3 {
+  padding : 30px;
+  border-bottom: 5px solid #ff9c00;
+}
+
+.howitworks_page .search-tab > ul {
+  border : 0px;
+  padding :0px;
+}
+
+.howitworks_page .search-tab > ul > li {
+  float:none;
+  padding :0px;
+  border-radius: 0px;
+  padding : 0;
+  border-bottom: 1px solid #d4dbdd;
+}
+
+.howitworks_page .search-tab > ul > li span{
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.howitworks_page .search-tab > ul > li > a, 
+.howitworks_page .search-tab > ul > li > a:hover, 
+.howitworks_page .search-tab > ul > li > a:focus {
+  border-radius : 0px;
+  border: 0px;
+  padding : 16px 0 16px 25px;
+  margin:0px;
+  font-weight: bold;
+  color : #666666;
+  font-size: 12px;
+}
+
+.howitworks_page .search-tab > ul > li.active > a {
+  background-color: #ebf1f3;
+  color : #d75725;
+}
+
+.howitworks_page .layer3 .tab-pane .tab-content {
+    background-color: #ebf1f3;
+    height: auto;
+    min-height: 450px;
+    padding: 10px 30px;
+}
+
+.howitworks_page .layer3 .slid-text {
+  padding-top: 20px;
+} 
+
+.howitworks_page .layer3 .slid-image {
+  width : 100%;
+  height : 100%;
+}
+
+.howitworks_page .layer3 .jssora03r {
+    left: 20px !important;
+}
+
+.howitworks_page .layer3 .jssora03l {
+    right: -20px !important;
+}
+
+span[u="arrowright"] {
+  background:rgba(0, 0, 0, 0) url("img/slider-right.png") no-repeat scroll 0 0;
+}
+
+span[u="arrowleft"] {
+  background:rgba(0, 0, 0, 0) url("img/slider-left.png") no-repeat scroll 0 0;
+}
+
+.sa-l {
+  left : 20px !important;
+  top : 195px;
+}
+
+.sa-r {
+  right : 20px !important;
+  top : 195px;
+}
+
+/*      ******slid grid selctor*******           */
+
+.jssort14 {
+position: absolute;
+width: 504px;
+height: 27px;
+background: #ebf1f3;
+}
+
+.jssort14 .p {
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    background: #ebf1f3;
+}
+
+.jssort14 .w {
+    cursor: pointer;
+    position: absolute;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+    background-color: #ebf1f3;
+}
+
+.jssort14 .pdn .w, .jssort14 .pav .w, .jssort14 .p:hover .w {
+    background-color: #ebf1f3;
+}
+ 
+.jssort14 .c {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 23px;
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    background-color: none;
+    transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -webkit-transition: background-color .6s;
+    -o-transition: background-color .6s;
+}
+
+.jssort14  div[debug-id=slide-board] {
+  left: 0px !important;
+}
+
+.jssort14 .p:hover .c, .jssort14 .pav:hover .c, .jssort14 .pav .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+.jssort14 .pav .c {
+    background-color: #ebf1f3;
+    border-bottom: 5px solid #fcb03c;
+}
+
+.jssort14 .p:hover .c, .jssort14 .pav:hover .c {
+    background-color: #ebf1f3;
+}
+
+
+
+/*********************************/

@@ -1,0 +1,225 @@
+.home_page .main-sidebar .sidebar {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.home_page .edut-header {
+  border-bottom: none;
+}
+
+.home_page .layer1 {
+  /*background: url("img/home_page_layer1_bg.png") no-repeat;*/
+  background-size : 100% 500px;
+}
+
+.home_page .layer1 img{
+    width : 100%;
+    height : auto;
+    margin-top: -100px;
+}
+
+.home_page .layer2 {
+  background-color: #FCB13C;
+}
+
+.home_page .layer2 .content {
+  width: 75%;
+  padding-top: 10px;
+}
+
+.home_page .layer2 input {
+  margin : 5px;
+}
+
+.home_page .layer2 input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #f15b28;
+}
+
+.home_page .layer2 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #f15b28;
+   opacity:  1;
+}
+
+.home_page .layer2 input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #f15b28;
+   opacity:  1;
+}
+
+.home_page .layer2 input:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #f15b28;
+}
+
+.home_page .layer2 a {
+    display: inline-table;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.home_page .layer2 .forgot_password {
+  color : #b12228;
+}
+
+.home_page .layer2  > input[type="button"], input[type="reset"], input[type="submit"]  {
+  color : white;
+  
+}
+
+.home_page .layer3 {
+  background-color: #ededed;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  font-family: fantasy;
+}
+
+.home_page .layer3 > * {
+  font-size: 18px;
+}
+
+.home_page .layer4 {
+  background-color: white;
+  margin-top: 3px;
+  padding-top: 20px;
+}
+
+.home_page .layer4 input {
+  background-color: #e93545;
+}
+
+.home_page .layer4 input:hover {
+  background-color: #FCB03C;
+}
+
+.home_page .layer5 {
+  background-color: #EDEDED;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  box-shadow: 0px 3px 3px 0px rgba(189,189,189,1);
+  font-family: fantasy;
+}
+
+.home_page .layer5 .item {
+  padding-left: 10%;
+  padding-right: 10%;  
+}
+
+.home_page .layer5 .item img {
+  margin-bottom: 20px;
+}
+
+.home_page .layer5 .item p {
+  font-size: 18px;
+}
+
+
+.home_page .layer6 {
+  background-color: white;
+  padding-top : 20px;
+}
+
+.home_page .layer6 .content {
+    border-left: 12px solid #f15b28;
+    padding: 0 5px 0 15px;
+}
+
+.home_page .layer6 .item {
+  padding :3px;
+}
+
+.home_page .layer6 p {
+    font-size: 17px;
+    line-height: 1.7em;
+    padding-left: 4px;
+    padding-top: 28px;
+}
+
+.home_page .layer7 {
+  background-color: white;
+  
+}
+
+.home_page .layer7 .logo_deco {
+    background-image: url("../common/dist/img/logo_mini_decoration.png");
+    background-repeat: repeat-x;
+    height: 48px;
+    text-align: center;
+}
+
+.home_page .layer7 .logo_deco {
+  width: 95%;
+  margin:auto;
+}
+
+.home_page .layer7 .item {
+  padding : 3px;
+}
+
+.home_page .layer8 {
+  background: rgba(0, 0, 0, 0) url("img/home_page_layer8_2.png") repeat-x scroll 0 0 / auto 100%
+  
+}
+
+.home_page .layer8  #accordion {
+  padding-left: 5%;
+  margin-top: -55px;    
+}
+
+.home_page .layer8 .panel {
+  background:none;
+  border-radius:0px;
+  box-shadow:none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding : 0px;
+  margin-bottom: 0;
+}
+
+.home_page .layer8 a {
+  color:white;
+  background-image: url("img/home_page_layer8_slider_plus.png");
+  background-repeat: no-repeat;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: 20px 27px;
+  font-size : 16px;
+  display: table;
+  padding: 20px 0 0 45px;
+  width: 100%;
+}
+
+.home_page .layer8 a[aria-expanded=true] {
+  background-image: url("img/home_page_layer8_slider_minus.png");
+  background-color: white;
+  color : #ff9c00;
+}
+
+.home_page .layer8 a[aria-expanded=false] {
+  background-image: url("img/home_page_layer8_slider_plus.png");
+  background-color: none;
+  color: #FFFFFF;
+}
+
+.home_page .layer8 .panel-collapse {
+  padding-left: 25px;
+  background-color: white;
+}
+
+.home_page .layer9 {
+  background-image: url("img/home_page_layer9_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color : white;
+}
+
+.home_page .layer10 {
+  background-color: white;
+}
+
+/******************** mobile ***********************/
+
+@media (max-width: 767px) {
+  .home_page .layer1 img{
+    margin-top: 0px;
+  }
+}
+
